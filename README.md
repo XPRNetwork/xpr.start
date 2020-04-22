@@ -62,6 +62,7 @@ https://proton.eosdublin.io
 https://api.proton.alohaeos.com
 https://proton.eosphere.io
 https://proton.eosvenezuela.io
+https://api.proton.eostribe.io
 ```
 
 ## Monitor
