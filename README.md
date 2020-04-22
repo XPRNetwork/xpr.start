@@ -48,6 +48,7 @@ p2p-peer-address = proton.eosdublin.io::9877
 p2p-peer-address = peer.proton.alohaeos.com:9876
 p2p-peer-address = peer1-proton.eosphere.io:9876
 p2p-peer-address = proton.eosvenezuela.io:9777
+p2p-peer-address = p2p.proton.eostribe.io:19880
 ```
 
 ## PROTON API
