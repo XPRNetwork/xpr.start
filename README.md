@@ -50,6 +50,19 @@ p2p-peer-address = peer1-proton.eosphere.io:9876
 p2p-peer-address = proton.eosvenezuela.io:9777
 ```
 
+## PROTON API
+```
+https://proton.cryptolions.io
+https://api-proton.eosarabia.net
+https://proton.eos.barcelona
+https://proton.pink.gg
+https://proton.lynxsweden.org
+https://proton.eosdublin.io
+https://api.proton.alohaeos.com
+https://proton.eosphere.io
+https://proton.eosvenezuela.io
+```
+
 ## Monitor
 https://monitor.protonchain.com/
 
