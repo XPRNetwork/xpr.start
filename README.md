@@ -38,6 +38,9 @@
 
 ```
 p2p-peer-address = proton.cryptolions.io:9876
+p2p-peer-address = proton.eu.eosamsterdam.net:9103
+p2p-peer-address = proton.lynxsweden.org:9576
+p2p-peer-address = p2p-proton.eosarabia.net:9876
 ```
 
 ## Monitor
