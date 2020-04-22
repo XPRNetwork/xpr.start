@@ -40,6 +40,8 @@
 p2p-peer-address = proton.cryptolions.io:9876
 ```
 
-Hyperion
+## Monitor
+https://monitor.protonchain.com/
 
+## Hyperion
 https://proton.cryptolions.io/v2/docs
