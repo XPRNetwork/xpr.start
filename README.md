@@ -45,6 +45,9 @@ p2p-peer-address = peer1.proton.pink.gg:48011
 p2p-peer-address = proton-p2p.eos.barcelona:9850
 p2p-peer-address = proton.lynxsweden.org:9576
 p2p-peer-address = proton.eosdublin.io::9877
+p2p-peer-address = peer.proton.alohaeos.com:9876
+p2p-peer-address = peer1-proton.eosphere.io:9876
+p2p-peer-address = proton.eosvenezuela.io:9777
 ```
 
 ## Monitor
