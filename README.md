@@ -49,6 +49,7 @@ p2p-peer-address = peer.proton.alohaeos.com:9876
 p2p-peer-address = peer1-proton.eosphere.io:9876
 p2p-peer-address = proton.eosvenezuela.io:9777
 p2p-peer-address = p2p.proton.eostribe.io:19880
+p2p-peer-address = proton.greymass.com:19875
 ```
 
 ## PROTON API
@@ -63,6 +64,7 @@ https://api.proton.alohaeos.com
 https://proton.eosphere.io
 https://proton.eosvenezuela.io
 https://api.proton.eostribe.io
+http://proton.greymass.com
 ```
 
 ## Monitor
@@ -70,3 +72,4 @@ https://monitor.protonchain.com/
 
 ## Hyperion
 https://proton.cryptolions.io/v2/docs
+https://proton.eosusa.news/v2/docs/index.html
