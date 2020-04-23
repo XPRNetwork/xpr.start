@@ -71,5 +71,5 @@ http://proton.greymass.com
 https://monitor.protonchain.com/
 
 ## Hyperion
-https://proton.cryptolions.io/v2/docs
+https://proton.cryptolions.io/v2/docs  
 https://proton.eosusa.news/v2/docs/index.html
