@@ -111,6 +111,8 @@ To upgrade precompiled installation pleasse folow the same steps as in 1.2 (Inst
 
 - In case you use a different data-dir folders -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini, Wallet/start_wallet.sh, Wallet/stop_wallet.sh  
 
+- The first thing you will need to do is download the Wallet(the link will be soon) and create a new PROTON mainnet account.
+
 - To register as Block Producer you should go to the <a target="_blank" href="https://permission.protonchain.com/">Permission Portal</a> login and request permission to regproduse  
   when you got this permission and you finish prepare node you can run command 
   ```
