@@ -264,7 +264,7 @@ http://proton.greymass.com
 # PROTON MainNet History nodes
 **Hyperion History**  
 https://proton.cryptolions.io/v2/docs  
-ttps://proton.eosusa.news/v2/docs/index.html
+https://proton.eosusa.news/v2/docs/index.html
 
 **Block Explorers**   
 https://proton.bloks.io/  
