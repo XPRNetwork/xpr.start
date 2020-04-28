@@ -281,6 +281,6 @@ https://permission.protonchain.com
   * [Ubuntu 18](http://backup.cryptolions.io/ProtonMainNet/ubuntu18/)  
   
 ### Snapshot:
-  * [Snapshots](http://backup.cryptolions.io/ProtonTestnet/snapshots/)
+  * [Snapshots](http://backup.cryptolions.io/ProtonMainNet/snapshots/)
 
 --------------
