@@ -9,13 +9,14 @@ Network Monitor: https://monitor.protonchain.com/
 
 ! This repo is for manual installation.  
 
+**Proton is a protocol built on top of the EOSIO consensus layer that allows verified user identity and applications to generate signature requests (transactions) that can be pushed to signers (wallets) for authentication and signature creation. These signature requests can be used today to authenticate and sign cryptographic payments. The same architecture will be used in future version to initiate and track pending fiat transactions**
 
-To start a PROTON MainNet node you need install EOSIO software. You can compile from sources or install from precompiled binaries:  
+To start a Proton TestNet node you need install EOSIO software. You can compile from sources or install from precompiled binaries:  
 
-# 1. Installing EOSIO  
+# 1. Installing
 ---------------------------------------------------  
 
-# 1.1 EOSIO - Installing from sources  
+# 1.1 Installing from sources  
 
 A. Create folder, download sources, compile and install:  
 
@@ -47,7 +48,7 @@ ln -sf /opt/bin/v2.0.5 /opt/bin/bin
 So /opt/bin/bin will point to latest binaries  
 
 
-# 1.2 EOSIO - installing from precompiled binaries  
+# 1.2 Installing from precompiled binaries  
 
 A. Download the latest version of EOSIO for your OS from:  
 https://github.com/EOSIO/eos/releases/tag/v2.0.5   
@@ -71,7 +72,7 @@ B. Copy binaries to keep old versions and make sym link to latest:
 So /opt/bin/bin will be point to latest binaries  
 
 ---------------------------------------------------------  
-# 2. Update EOSIO software to new version  
+# 2. Update software to new version  
 
 # 2.1 Update sources  
 
