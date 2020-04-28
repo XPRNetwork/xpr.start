@@ -1,6 +1,6 @@
 # Welcome to the PROTON MainNet [manual node installation]
 
-Chain ID:  384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0
+Chain ID:  384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0  
 Based on tag: 2.0.5
 
 Please join out PROTON MainNet <a target="_blank" href="https://t.me/">Telegram channel</a>  
