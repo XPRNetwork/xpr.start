@@ -170,7 +170,7 @@ Enter your private key
 
 
 
-- Check if you can access you node using link http://you_server:8888/v1/chain/get_info (<a href="http://proton.cryptolions.io/v1/chain/get_info" target="_blank">Example</a>)  
+- Check if you can access you node using link http://you_server:8888/v1/chain/get_info (<a href="https://proton.cryptolions.io/v1/chain/get_info" target="_blank">Example</a>)  
 
 
 ==============================================================================================  
