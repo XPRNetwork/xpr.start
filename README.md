@@ -261,7 +261,7 @@ https://api.proton.eostribe.io
 http://proton.greymass.com
 ```
 
-**Network Monitor**
+**Network Monitor**  
 https://monitor.protonchain.com/
  
 **Hyperion History**  
