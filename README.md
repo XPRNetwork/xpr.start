@@ -260,8 +260,10 @@ https://proton.eosvenezuela.io
 https://api.proton.eostribe.io
 http://proton.greymass.com
 ```
+
+**Network Monitor**
+https://monitor.protonchain.com/
  
-# PROTON MainNet History nodes
 **Hyperion History**  
 https://proton.cryptolions.io/v2/docs  
 https://proton.eosusa.news/v2/docs/index.html
