@@ -1,10 +1,10 @@
 #!/bin/bash
 ################################################################################
-# Lynx tools 
+# Proton tools 
 #
 # Created by CryptoLions.io
 #
-# https://github.com/needly/lynx.start 
+# https://github.com/ProtonProtocol/proton.start
 # 
 #
 ###############################################################################
