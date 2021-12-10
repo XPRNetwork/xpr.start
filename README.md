@@ -270,6 +270,7 @@ https://monitor.protonchain.com/
 https://proton.cryptolions.io/v2/docs  
 https://proton.eosusa.news/v2/docs/index.html  
 https://proton-hyperion.eoscafeblock.com/v2/docs/index.html
+https://proton.eosphere.io/v2/docs/index.html
 
 **Block Explorers**   
 https://proton.bloks.io/  
@@ -285,5 +286,6 @@ https://permission.protonchain.com
   
 ### Snapshot:
   * [Snapshots](http://backup.cryptolions.io/ProtonMainNet/snapshots/)
+  * [Snapshots provided by EOSphere](https://snapshots.eosphere.io/snapshots/proton/)
 
 --------------
