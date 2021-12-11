@@ -261,10 +261,12 @@ https://proton.eosvenezuela.io
 https://api.proton.eostribe.io
 http://proton.greymass.com
 https://proton.eoscafeblock.com
+https://proton.eosio.cr
 ```
 
 **Network Monitor**  
 https://monitor.protonchain.com/
+https://proton.eosio.online/
  
 **Hyperion History**  
 https://proton.cryptolions.io/v2/docs  
