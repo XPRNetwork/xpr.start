@@ -164,7 +164,7 @@ Enter your private key
    after it downloaded, extract and copy to /snapshots then run `start.sh` script with option `--snapshot` and snapshot file path
    ```
    sudo apt-get install zstd
-   zstd -d latest-snapshot.zst
+   zstd latest-snapshot.zst
    cd /opt/ProtonMainNet/protonNode
    ./start.sh --snapshot /opt/ProtonMainNet/protonNode/snapshots/latest-snapshot.bin
    ```
