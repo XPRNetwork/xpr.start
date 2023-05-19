@@ -157,11 +157,14 @@ Enter your private key
 # 4.2 Restore/Start from Snapshots
    Download latest snapshot from http://backup.cryptolions.io/ProtonMainNet/snapshots/ to snapshots folder in your **NODE** directory
    ```
+   mkdir /opt/protonMainNet/protonNode/snapshots
    cd /opt/protonMainNet/protonNode/snapshots/
    wget http://backup.cryptolions.io/ProtonMainNet/snapshots/latest-snapshot.bin.zst
    ```
    after it downloaded, extract and copy to /snapshots then run `start.sh` script with option `--snapshot` and snapshot file path
    ```
+   sudo apt-get install zstd
+   zstd -d latest-snapshot.zst
    cd /opt/ProtonMainNet/protonNode
    ./start.sh --snapshot /opt/ProtonMainNet/protonNode/snapshots/latest-snapshot.bin
    ```
