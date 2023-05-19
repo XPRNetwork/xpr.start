@@ -196,21 +196,66 @@ List staked/delegated
 ```
 ./cleos.sh system listbw <account>
 ```
+## PROTON MAINNET P2P
 
-## PROTON API
 ```
+api.protonnz.com:9876
+proton.protonuk.io:9876
+proton.p2p.eosusa.io:9879
+proton.cryptolions.io:9876
+main.proton.kiwi:9786
+protonp2p.eoscafeblock.com:9130
+p2p.alvosec.com:9876
+p2p.protonmt.com:9876
+p2p.totalproton.tech:9831
+mainnet.brotonbp.com:9876
+p2p.proton.bountyblok.io:29876
+proton.eu.eosamsterdam.net:9103
+protonp2p.blocksindia.com:9876
+p2p-protonmain.saltant.io:9876
+protonp2p.ledgerwise.io:23877
+peer1.proton.pink.gg:48011
+peer2.proton.pink.gg:48011
+proton-seed.eosiomadrid.io:9876
+proton.edenia.cloud:9879
+proton.genereos.io:9876
+p2p.proton.detroitledger.tech:1337
+p2p.proton.eosargentina.io:9877
+peer-proton.nodeone.network:9870
+p2p.proton.eoseoul.io:39876
+proton-public.neftyblocks.com:19876
+p2p-proton.eosarabia.net:9876
+```
+
+
+## PROTON MAINNET API
+```
+https://api.protonnz.com
+https://proton.protonuk.io
+https://proton.eosusa.io
 https://proton.cryptolions.io
-https://api-proton.eosarabia.net
-https://proton.eos.barcelona
-https://proton.pink.gg
-https://proton.lynxsweden.org
-https://proton.eosdublin.io
-https://api.proton.alohaeos.com
-https://proton.eosphere.io
-https://proton.eosvenezuela.io
-https://api.proton.eostribe.io
-http://proton.greymass.com
+https://main.proton.kiwi
 https://proton.eoscafeblock.com
+https://proton-api.alvosec.com
+https://api.protonmt.com
+https://api.totalproton.tech
+https://mainnet.brotonbp.com
+https://api.proton.bountyblok.io
+https://proton.eu.eosamsterdam.net
+https://protonapi.blocksindia.com/
+https://aa-proton.saltant.io
+https://protonapi.ledgerwise.io
+https://proton.api.atomicassets.io
+https://proton.pink.gg
+https://proton-api.eosiomadrid.io
+https://proton.edenia.cloud
+https://proton.genereos.io
+https://api.proton.detroitledger.tech
+https://proton.eosargentina.io
+https://api-proton.nodeone.network:8344
+https://proton.eoseoul.io
+https://proton-public.neftyblocks.com
+https://api-proton.eosarabia.net
 ```
 
 **Network Monitor**  
