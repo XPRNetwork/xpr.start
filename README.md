@@ -13,6 +13,13 @@ Network Monitor: https://monitor.protonchain.com/
 
 To start a Proton node you need install Leap software. You can compile from sources or install from precompiled binaries:  
 
+## Important Update
+
+Proton Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (3.2.3) by 30 June 2023. This update is required to ensure the stability of the Proton Mainnet.
+
+Please contact us on Telegram if you have any questions: https://t.me/ProtonTestnet
+
+
 # 1. Installing
 ---------------------------------------------------  
 
