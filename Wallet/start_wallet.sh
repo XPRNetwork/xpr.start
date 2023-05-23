@@ -10,7 +10,7 @@
 #
 ###############################################################################
 
-NODEOSBINDIR="/opt/bin/bin"
+NODEOSBINDIR="/usr/bin"
 DATADIR="/opt/ProtonMainNet/Wallet"
 WALLET_HOST="127.0.0.1"
 WALLET_POSRT="3000"

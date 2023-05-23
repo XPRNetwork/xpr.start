@@ -10,7 +10,7 @@
 ###############################################################################
 
 
-NODEOSBINDIR="/opt/bin/bin"
+NODEOSBINDIR="/usr/bin"
 DATADIR="/opt/ProtonMainNet/protonNode"
 
 $DATADIR/stop.sh
