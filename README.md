@@ -26,13 +26,13 @@ Please contact us on Telegram if you have any questions: https://t.me/ProtonTest
 # 1.1 Installing from precompiled binaries  
 
 A. Download the latest version of EOSIO for your OS from:  
-https://github.com/AntelopeIO/leap/releases/tag/v3.2.3
-For example, for ubuntu 22.04 you need to download deb leap_3.2.3-ubuntu22.04_amd64.deb
+https://github.com/AntelopeIO/leap/releases/tag/v3.2.4
+For example, for ubuntu 22.04 you need to download deb leap_3.2.4-ubuntu22.04_amd64.deb
 
 
 To install it you can use apt:  
 ```
-wget https://github.com/AntelopeIO/leap/releases/download/v3.2.3/leap_3.2.3-ubuntu22.04_amd64.deb
+wget https://github.com/AntelopeIO/leap/releases/download/v3.2.4/leap_3.2.4-ubuntu22.04_amd64.deb
 sudo apt-get update
 sudo apt install ./leap_3.2.3-ubuntu22.04_amd64.deb
 ```
