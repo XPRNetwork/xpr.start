@@ -1,7 +1,7 @@
 # Welcome to the PROTON MainNet [manual node installation]
 
 Chain ID:  384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0  
-Based on tag: 3.2.3
+Based on tag: 3.2.4
 
 Please join out PROTON MainNet <a target="_blank" href="https://t.me/">Telegram channel</a>  
 Network Monitor: https://monitor.protonchain.com/  
@@ -15,7 +15,7 @@ To start a Proton node you need install Leap software. You can compile from sour
 
 ## Important Update
 
-Proton Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (3.2.3) by 30 June 2023. This update is required to ensure the stability of the Proton Mainnet.
+Proton Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (3.2.4) by 30 August 2023. This update is required to ensure the stability of the Proton Mainnet.
 
 Please contact us on Telegram if you have any questions: https://t.me/ProtonTestnet
 
@@ -34,7 +34,7 @@ To install it you can use apt:
 ```
 wget https://github.com/AntelopeIO/leap/releases/download/v3.2.4/leap_3.2.4-ubuntu22.04_amd64.deb
 sudo apt-get update
-sudo apt install ./leap_3.2.3-ubuntu22.04_amd64.deb
+sudo apt install ./leap_3.2.4-ubuntu22.04_amd64.deb
 ```
 It will download all dependencies and install Leap  
 
