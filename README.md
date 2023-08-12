@@ -32,6 +32,7 @@ For example, for ubuntu 22.04 you need to download deb leap_3.2.3-ubuntu22.04_am
 
 To install it you can use apt:  
 ```
+wget https://github.com/AntelopeIO/leap/releases/download/v3.2.3/leap_3.2.3-ubuntu22.04_amd64.deb
 sudo apt-get update
 sudo apt install ./leap_3.2.3-ubuntu22.04_amd64.deb
 ```
@@ -64,8 +65,6 @@ To upgrade precompiled installation pleasse folow the same steps as in 1.1 (Inst
 
 - The first thing you will need to do is download the Wallet (the link will be soon) and create a new PROTON mainnet account.
 
-- To register as Block Producer you should go to the <a target="_blank" href="https://permission.protonchain.com/">Permission Portal</a> login and request permission to regproduse  
-  when you got this permission and you finish prepare node you can run command 
   ```
   ./cleos.sh system regproducer YOU_ACCOUNT PUBKEY "URL" LOCATION -p YOU_ACCOUNT
   ```
@@ -73,16 +72,16 @@ To upgrade precompiled installation pleasse folow the same steps as in 1.1 (Inst
 - If non BP node: use the same config, just comment out rows with producer-name and signature-provider  
   
 - Edit config.ini:  
-  - server address: p2p-server-address = ENRT_YOUR_NODE_EXTERNAL_IP_ADDRESS:9876  
+  - server address: p2p-server-address = ENTER_YOUR_NODE_EXTERNAL_IP_ADDRESS:9876  
 
   - if BP: your producer name: producer-name = YOUR_BP_NAME  
-  - if BP: add producer keypair for signing blocks (this pub key should be used in regproducer action):  
+  - if BP: add producer keypair for signing blocks (this pub key should be used in regproducer action - generate separate signing key):  
   signature-provider = YOUR_PUB_KEY_HERE=KEY:YOUR_PRIV_KEY_HERE  
   - replace p2p-peer-address list with fresh generated on monitor site: https://monitor.protonchain.com/#p2p  
   - Check chain-state-db-size-mb value in config, it should be not bigger than you have RAM:  
     chain-state-db-size-mb = 16384  
   
-- Open TCP Ports (8888, 9876) on your firewall/router  
+- Open TCP Ports (8888, 9876) on your firewall/router
 
 
 - Start wallet, run  
@@ -97,13 +96,15 @@ cd /opt/ProtonMainNet/protonNode
 ./start.sh --delete-all-blocks --genesis-json genesis.json
 ```  
 Check logs stderr.txt if node is running ok. 
-
+```
+tail -f stderr.txt
+```
 
 - Create your wallet file  
 ```
 ./cleos.sh wallet create --to-file pass.tx
 ```
-Your password will be in pass.txt it will be used when unlock wallet  
+Your password will be in pass.txt it will be used when unlock wallet
 
 
 - Unlock your wallet  
@@ -121,7 +122,7 @@ Enter your private key
 
 
 
-- Check if you can access you node using link http://you_server:8888/v1/chain/get_info (<a href="https://proton.cryptolions.io/v1/chain/get_info" target="_blank">Example</a>)  
+- Check if you can access your node using following URL: http://you_server:8888/v1/chain/get_info (<a href="https://proton.cryptolions.io/v1/chain/get_info" target="_blank">Example</a>)  
 
 
 ==============================================================================================  
@@ -270,10 +271,7 @@ https://proton.eosusa.news/v2/docs/index.html
 https://proton-hyperion.eoscafeblock.com/v2/docs/index.html
 
 **Block Explorers**   
-https://proton.bloks.io/  
-
-**Permissions**    
-https://permission.protonchain.com
+https://protonscan.io/  
 
 --------------  
 
