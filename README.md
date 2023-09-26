@@ -1,40 +1,35 @@
-# Welcome to the PROTON MainNet [manual node installation]
+# Welcome to the XPR Network MainNet [manual node installation]
 
-Chain ID:  384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0  
-Based on tag: 3.2.4
+Chain ID:  `384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0`
+Based on tag: v4.0.4
 
-Please join out PROTON MainNet <a target="_blank" href="https://t.me/">Telegram channel</a>  
-Network Monitor: https://monitor.protonchain.com/  
+Please join our [XPR Network Testnet Telegram channel](https://t.me/XPRNetwork/935112)
+MainNet Explorer: https://explorer.xprnetwork.org/
 
 
-! This repo is for binary installation.  
+This repo is for binary installation!
 
-**Proton is a protocol built on top of the Antelope (EOSIO) consensus layer that allows verified user identity and applications to generate signature requests (transactions) that can be pushed to signers (wallets) for authentication and signature creation. These signature requests can be used today to authenticate and sign cryptographic payments. The same architecture will be used in future version to initiate and track pending fiat transactions**
+**XPR Network is a protocol built on top of the Antelope (EOSIO) consensus layer that allows verified user identity and applications to generate signature requests (transactions) that can be pushed to signers (wallets) for authentication and signature creation. These signature requests can be used today to authenticate and sign cryptographic payments. The same architecture will be used in future version to initiate and track pending fiat transactions**
 
-To start a Proton node you need install Leap software. You can compile from sources or install from precompiled binaries:  
+To start a XPR Network node you need install Leap software. You can compile from sources or install from precompiled binaries:  
 
 ## Important Update
 
-Proton Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (3.2.4) by 30 August 2023. This update is required to ensure the stability of the Proton Mainnet.
+XPR Network Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (4.0.4) by 30 October 2023. This update is required to ensure the stability of the XPR Network MainNet.
 
-Please contact us on Telegram if you have any questions: https://t.me/ProtonTestnet
+Please contact us on Telegram if you have any questions: [https://t.me/XPRNetwork/935112](https://t.me/XPRNetwork/935112)
 
+# 1 Installing from precompiled binaries
 
-# 1. Installing
----------------------------------------------------  
+A. Download the latest version of Antelope Leap for your OS from:
+[https://github.com/AntelopeIO/leap/releases/tag/v4.0.4
+](https://github.com/AntelopeIO/leap/releases/tag/v4.0.4)
 
-# 1.1 Installing from precompiled binaries  
-
-A. Download the latest version of EOSIO for your OS from:  
-https://github.com/AntelopeIO/leap/releases/tag/v3.2.4
-For example, for ubuntu 22.04 you need to download deb leap_3.2.4-ubuntu22.04_amd64.deb
-
-
-To install it you can use apt:  
+For example, for Ubuntu 22.04 you need to download deb leap_4.0.4-ubuntu22.04_amd64.deb            
+To install it you can use apt, but before that download it using wget command:
 ```
-wget https://github.com/AntelopeIO/leap/releases/download/v3.2.4/leap_3.2.4-ubuntu22.04_amd64.deb
-sudo apt-get update
-sudo apt install ./leap_3.2.4-ubuntu22.04_amd64.deb
+wget https://github.com/AntelopeIO/leap/releases/download/v4.0.4/leap_4.0.4-ubuntu22.04_amd64.deb
+apt install ./leap_4.0.4-ubuntu22.04_amd64.deb 
 ```
 It will download all dependencies and install Leap  
 
@@ -44,18 +39,18 @@ It will download all dependencies and install Leap
 If upgrading from old 2.X or 3.X versions please see this important guide 
 https://eosnetwork.com/blog/leap-3-1-upgrade-guide/
 
-# 2.2 Update binaries  
-
-To upgrade precompiled installation pleasse folow the same steps as in 1.1 (Installation from precompiled)  
+```
+apt install ./leap_4.0.4-ubuntu22.04_amd64.deb 
+```
 
 ------------------------------------------------------------------  
 
-# 3. Install PROTON MainNet node [manual]  
+# 3. Install XPR Network MainNet node [manual]  
     
 ```
-    mkdir /opt/ProtonMainNet
-    cd /opt/ProtonMainNet
-    git clone https://github.com/ProtonProtocol/proton.start.git ./
+    mkdir /opt/XPRMainNet
+    cd /opt/XPRMainNet
+    git clone https://github.com/XPRNetwork/xpr.start.git ./
 
 ```
 
@@ -63,11 +58,8 @@ To upgrade precompiled installation pleasse folow the same steps as in 1.1 (Inst
 
 - NODEOSBINDIR="/usr/bin"
 
-- The first thing you will need to do is download the Wallet (the link will be soon) and create a new PROTON mainnet account.
+-  to create an account on XPR Network go to <a target="_blank" href="https://webauth.com/">WebAuth.com</a> create your account, use a real email to get verification code. You can get your private key by going to settings > backup private key.
 
-  ```
-  ./cleos.sh system regproducer YOU_ACCOUNT PUBKEY "URL" LOCATION -p YOU_ACCOUNT
-  ```
 
 - If non BP node: use the same config, just comment out rows with producer-name and signature-provider  
   
@@ -86,13 +78,13 @@ To upgrade precompiled installation pleasse folow the same steps as in 1.1 (Inst
 
 - Start wallet, run  
 ```
-cd /opt/ProtonMainNet
+cd /opt/XPRMainNet
 ./Wallet/start_wallet.sh
 ```
 
 **First run should be with --delete-all-blocks and --genesis-json**  
 ```
-cd /opt/ProtonMainNet/protonNode
+cd /opt/XPRMainNet/xprNode
 ./start.sh --delete-all-blocks --genesis-json genesis.json
 ```  
 Check logs stderr.txt if node is running ok. 
@@ -127,49 +119,25 @@ Enter your private key
 
 ==============================================================================================  
 
-# 4.1 Restore/Start from Backup
-   Download latest block and state archive for your OS from http://backup.cryptolions.io/ProtonMainNet/
-   
-   ```
-   wget http://backup.cryptolions.io/ProtonMainNet/ubuntu18/latest-blocks.tar.gz
-   wget http://backup.cryptolions.io/ProtonMainNet/ubuntu18/latest-state.tar.gz
-   ```
-   After downloaded extract their
-   ```
-   tar xzvf blocks-latest.tar.gz -C .
-   tar xzvf state-latest.tar.gz -C .
-   ```
-   You got two folders block and state.  
-   Ater that go to **NODE** folder, and remove files from folder blocks and state
-   ```
-   cd /opt/ProtonMainNet/protonNode
-   rm blocks/*
-   rm state/*
-   ```
-   After that go where you extracted archive and move file from folder 
-   ```
-   mv ~/blocks/* /opt/ProtonMainNet/protonNode/blocks/
-   mv ~/state/* /opt/ProtonMainNet/protonNode/state/
-   ```
-   After files moved start your NODE
-   ```
-   ./start.sh
-   ```
-# 4.2 Restore/Start from Snapshots
+# 4 Restore/Start from Snapshots
    Download latest snapshot from http://backup.cryptolions.io/ProtonMainNet/snapshots/ to snapshots folder in your **NODE** directory
    ```
-   mkdir /opt/protonMainNet/protonNode/snapshots
-   cd /opt/protonMainNet/protonNode/snapshots/
+   mkdir /opt/XPRMainNet/xprNode/snapshots
+   cd /opt/XPRMainNet/xprNode/snapshots/
    wget http://backup.cryptolions.io/ProtonMainNet/snapshots/latest-snapshot.bin.zst
    ```
    after it downloaded, extract and copy to /snapshots then run `start.sh` script with option `--snapshot` and snapshot file path
    ```
    sudo apt-get install zstd
    unzstd latest-snapshot.zst
-   cd /opt/ProtonMainNet/protonNode
-   ./start.sh --snapshot /opt/ProtonMainNet/protonNode/snapshots/latest-snapshot.bin
+   cd /opt/XPRMainNet/xprNode
+   ./start.sh --snapshot /opt/XPRMainNet/xprNode/snapshots/latest-snapshot.bin
    ```
  ---
+# 5. Usefull Information  
+
+# XPR Network Faucet - get free XPR tokens:  
+  [https://resources.xprnetwork.org/faucet](https://resources.xprnetwork.org/faucet)  
 
 # Other Tools/Examples  
 
@@ -200,7 +168,7 @@ List staked/delegated
 ```
 ./cleos.sh system listbw <account>
 ```
-## PROTON MAINNET P2P
+## XPR Network MAINNET P2P
 
 ```
 api.protonnz.com:9876
@@ -232,7 +200,7 @@ p2p-proton.eosarabia.net:9876
 ```
 
 
-## PROTON MAINNET API
+## XPR Network MAINNET API
 ```
 https://api.protonnz.com
 https://proton.protonuk.io
@@ -262,23 +230,21 @@ https://proton-public.neftyblocks.com
 https://api-proton.eosarabia.net
 ```
 
-**Network Monitor**  
-https://monitor.protonchain.com/
- 
+# 6. Usefull Links
+
 **Hyperion History**  
 https://proton.cryptolions.io/v2/docs  
 https://proton.eosusa.news/v2/docs/index.html  
 https://proton-hyperion.eoscafeblock.com/v2/docs/index.html
 
 **Block Explorers**   
-https://protonscan.io/  
+https://explorer.xprnetwork.org
+
 
 --------------  
 
 # Backups
-### Full(blocks and states):
-  * [Ubuntu 18](http://backup.cryptolions.io/ProtonMainNet/ubuntu18/)  
-  
+ 
 ### Snapshot:
   * [Snapshots](http://backup.cryptolions.io/ProtonMainNet/snapshots/)
 

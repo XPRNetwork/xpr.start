@@ -1,16 +1,6 @@
 #!/bin/bash
 
-################################################################################
-# Proton tools
-#
-# 
-# Created by http://CryptoLions.io
-#
-# https://github.com/ProtonProtocol/proton.start
-#
-###############################################################################
-
-DIR="/opt/ProtonMainNet/Wallet"
+DIR="/opt/XPRMainNet/Wallet"
 
     if [ -f $DIR"/wallet.pid" ]; then
         pid=$(cat $DIR"/wallet.pid")

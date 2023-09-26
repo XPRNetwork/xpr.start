@@ -1,17 +1,7 @@
 #!/bin/bash
 
-################################################################################
-# Proton tools
-#
-# 
-# Created by http://CryptoLions.io
-#
-# https://github.com/ProtonProtocol/proton.start  
-#
-###############################################################################
-
 NODEOSBINDIR="/usr/bin"
-DATADIR="/opt/ProtonMainNet/Wallet"
+DATADIR="/opt/XPRMainNet/Wallet"
 WALLET_HOST="127.0.0.1"
 WALLET_POSRT="3000"
 

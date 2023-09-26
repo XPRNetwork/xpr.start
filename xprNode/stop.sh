@@ -1,14 +1,6 @@
 #!/bin/bash
-################################################################################
-# Proton tools
-#
-# Created by CryptoLions.io
-#
-# https://github.com/ProtonProtocol/proton.start
-#
-###############################################################################
 
-DIR="/opt/ProtonMainNet/protonNode"
+DIR="/opt/XPRMainNet/xprNode"
 
     if [ -f $DIR"/nodeos.pid" ]; then
 	pid=`cat $DIR"/nodeos.pid"`
