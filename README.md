@@ -19,7 +19,11 @@ XPR Network Consortium is requesting all Block Producers to update their nodes t
 
 Please contact us on Telegram if you have any questions: [https://t.me/XPRNetwork/935112](https://t.me/XPRNetwork/935112)
 
-# 1 Installing from precompiled binaries
+---------------------------------------------------  
+
+Make sure you have Ubuntu 22.04 installed.
+
+# 1. Installing from precompiled binaries
 
 A. Download the latest version of Antelope Leap for your OS from:
 [https://github.com/AntelopeIO/leap/releases/tag/v4.0.4
@@ -119,7 +123,7 @@ Enter your private key
 
 ==============================================================================================  
 
-# 4 Restore/Start from Snapshots
+# 4. Restore/Start from Snapshots
    Download latest snapshot from http://backup.cryptolions.io/ProtonMainNet/snapshots/ to snapshots folder in your **NODE** directory
    ```
    mkdir /opt/XPRMainNet/xprNode/snapshots
