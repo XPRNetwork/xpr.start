@@ -1,11 +1,9 @@
 # Welcome to the XPR Network MainNet [Validator Node Installation]
 
-Chain ID:  `384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0`
-Based on tag: v4.0.4
+Chain ID: `384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0` Based on tag: 4.0.4
 
 Please join our [XPR Network Testnet Telegram channel](https://t.me/XPRNetwork/935112)
 MainNet Explorer: https://explorer.xprnetwork.org/
-
 
 This repo is for binary installation!
 
@@ -15,7 +13,8 @@ To start a XPR Network node you need install Leap software. You can compile from
 
 ## Important Update
 
-XPR Network Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (4.0.4) by 30 October 2023. This update is required to ensure the stability of the XPR Network MainNet.
+> [!IMPORTANT] 
+> XPR Network Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (4.0.4) by 30 October 2023. This update is required to ensure the stability of the XPR Network MainNet.
 
 Please contact us on Telegram if you have any questions: [https://t.me/XPRNetwork/935112](https://t.me/XPRNetwork/935112)
 
@@ -32,8 +31,7 @@ A. Download the latest version of Antelope Leap for your OS from:
 For example, for Ubuntu 22.04 you need to download deb leap_4.0.4-ubuntu22.04_amd64.deb            
 To install it you can use apt, but before that download it using wget command:
 ```
-wget https://github.com/AntelopeIO/leap/releases/download/v4.0.4/leap_4.0.4-ubuntu22.04_amd64.deb
-apt install ./leap_4.0.4-ubuntu22.04_amd64.deb 
+wget https://github.com/AntelopeIO/leap/releases/download/v4.0.4/leap_4.0.4-ubuntu22.04_amd64.deb && apt install ./leap_4.0.4-ubuntu22.04_amd64.deb 
 ```
 It will download all dependencies and install Leap  
 
@@ -52,10 +50,7 @@ apt install ./leap_4.0.4-ubuntu22.04_amd64.deb
 # 3. Install XPR Network MainNet node [manual]  
     
 ```
-    mkdir /opt/XPRMainNet
-    cd /opt/XPRMainNet
-    git clone https://github.com/XPRNetwork/xpr.start.git ./
-
+mkdir /opt/XPRMainNet && cd /opt/XPRMainNet && git clone https://github.com/XPRNetwork/xpr.start.git ./
 ```
 
 - In case you use a different data-dir folders -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini, Wallet/start_wallet.sh, Wallet/stop_wallet.sh  
@@ -68,54 +63,49 @@ apt install ./leap_4.0.4-ubuntu22.04_amd64.deb
 - If non BP node: use the same config, just comment out rows with producer-name and signature-provider  
   
 - Edit config.ini:  
-  - server address: p2p-server-address = ENTER_YOUR_NODE_EXTERNAL_IP_ADDRESS:9876  
+  - server address: `p2p-server-address = EXTERNAL_IP_ADDRESS:9876` 
 
-  - if BP: your producer name: producer-name = YOUR_BP_NAME  
-  - if BP: add producer keypair for signing blocks (this pub key should be used in regproducer action - generate separate signing key):  
-  signature-provider = YOUR_PUB_KEY_HERE=KEY:YOUR_PRIV_KEY_HERE  
+  - if BP: your producer name: `producer-name = YOUR_BP_NAME`
+  - if BP: add producer keypair for signing blocks (this pub key should be used in regproducer action - generate separate signing key): `signature-provider = YOUR_PUB_KEY_HERE=KEY:YOUR_PRIV_KEY_HERE`
   - replace p2p-peer-address list with fresh generated on monitor site: https://monitor.protonchain.com/#p2p  
-  - Check chain-state-db-size-mb value in config, it should be not bigger than you have RAM:  
-    chain-state-db-size-mb = 16384  
+  - Check chain-state-db-size-mb value in config, it should be not bigger than you have RAM: `chain-state-db-size-mb = 16384`
   
 - Open TCP Ports (8888, 9876) on your firewall/router
 
 
 - Start wallet, run  
 ```
-cd /opt/XPRMainNet
-./Wallet/start_wallet.sh
+cd /opt/XPRMainNet && ./Wallet/start_wallet.sh
 ```
 
 **First run should be with --delete-all-blocks and --genesis-json**  
 ```
-cd /opt/XPRMainNet/xprNode
-./start.sh --delete-all-blocks --genesis-json genesis.json
+cd /opt/XPRMainNet/xprNode && ./start.sh --delete-all-blocks --genesis-json genesis.json
 ```  
-Check logs stderr.txt if node is running ok. 
+Check logs stderr.txt if node is running ok.
 ```
 tail -f stderr.txt
 ```
 
 - Create your wallet file  
 ```
-./cleos.sh wallet create --to-file pass.tx
+cleos wallet create --to-file pass.tx
 ```
 Your password will be in pass.txt it will be used when unlock wallet
 
 
 - Unlock your wallet  
 ```
-./cleos.sh wallet unlock
+cleos wallet unlock
 ```
 enter the wallet password.  
 
 
 - Import your key  
 ```
-./cleos.sh wallet import
+cleos wallet import
 ```
 Enter your private key  
-
 
 
 - Check if you can access your node using following URL: http://you_server:8888/v1/chain/get_info (<a href="https://proton.cryptolions.io/v1/chain/get_info" target="_blank">Example</a>)  
@@ -149,28 +139,28 @@ Enter your private key
 
 Send XPR
 ```
-./cleos.sh transfer <your account> <receiver account> "1.0000 XPR" "test memo text"
+cleos transfer <your account> <receiver account> "1.0000 XPR" "test memo text"
 ```
 Get Balance  
 ```
-./cleos.sh get currency balance eosio.token <account name>
+cleos get currency balance eosio.token <account name>
 ```
 Create account  
 ```
-./cleos.sh system newaccount --stake-net "10.0000 XPR" --stake-cpu "10.0000 XPR" --buy-ram-bytes 4096 <your accountr> <new account> <pkey1> <pkey2>
+cleos system newaccount --stake-net "10.0000 XPR" --stake-cpu "10.0000 XPR" --buy-ram-bytes 4096 <your accountr> <new account> <pkey1> <pkey2>
 ```  
 List registered producers (-l <limit>)  
 ```
-./cleos.sh get table eosio eosio producers -l 100
+cleos get table eosio eosio producers -l 100
 ```
 List your last action (use -h to get help, do not work now, works with history node only)  
 ```
-./cleos.sh get actions <account name>
+cleos get actions <account name>
 ```
   
 List staked/delegated  
 ```
-./cleos.sh system listbw <account>
+cleos system listbw <account>
 ```
 ## XPR Network MAINNET P2P
 
