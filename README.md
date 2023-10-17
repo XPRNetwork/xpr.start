@@ -69,7 +69,6 @@ mkdir /opt/XPRMainNet && cd /opt/XPRMainNet && git clone https://github.com/XPRN
 
   - if BP: your producer name: `producer-name = YOUR_BP_NAME`
   - if BP: add producer keypair for signing blocks (this pub key should be used in regproducer action, use this command `cleos create key --to-console`, and enter PUB key PRIV key in signature-provider): `signature-provider = YOUR_PUB_KEY_HERE=KEY:YOUR_PRIV_KEY_HERE` 
-  - replace p2p-peer-address list with fresh generated on monitor site: https://monitor.protonchain.com/#p2p  
   - Check chain-state-db-size-mb value in config, it should be not bigger than you have RAM: `chain-state-db-size-mb = 16384`
   - set CPU governor to performance, first check current CPU governor by using this command `cpufreq-info` and then set to performance `sudo cpufreq-set -r -g performance`
   - use this command to watch current CPU clock speed `watch -n 0.4 "grep -E '^cpu MHz' /proc/cpuinfo"`
