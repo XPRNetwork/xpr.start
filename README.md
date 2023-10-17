@@ -224,8 +224,9 @@ https://api-proton.eosarabia.net
 https://proton.cryptolions.io/v2/docs  
 https://proton.eosusa.news/v2/docs/index.html  
 https://proton-hyperion.eoscafeblock.com/v2/docs/index.html
-http://proton-api-testnet.eosiomadrid.io/v2/docs/static/index.html
 https://api-protontest.saltant.io/v2/docs/static/index.html
+http://proton-api-testnet.eosiomadrid.io/v2/docs/static/index.html
+
 
 **Block Explorers**   
 https://explorer.xprnetwork.org
