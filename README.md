@@ -1,6 +1,7 @@
 # Welcome to the XPR Network MainNet [Validator Node Installation]
 
-Chain ID: `384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0` Based on tag: 4.0.4
+Chain ID: `384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0` 
+Based on tag: 4.0.4
 
 Please join our [XPR Network Testnet Telegram channel](https://t.me/XPRNetwork/935112)
 MainNet Explorer: https://explorer.xprnetwork.org/
@@ -20,7 +21,7 @@ Please contact us on Telegram if you have any questions: [https://t.me/XPRNetwor
 
 ---------------------------------------------------  
 
-Make sure you have Ubuntu 22.04 installed.
+Make sure you have Ubuntu 22.04 installed. (Check OS version by using this command `lsb_release -a`)
 
 # 1. Installing from precompiled binaries
 
@@ -28,7 +29,8 @@ A. Download the latest version of Antelope Leap for your OS from:
 [https://github.com/AntelopeIO/leap/releases/tag/v4.0.4
 ](https://github.com/AntelopeIO/leap/releases/tag/v4.0.4)
 
-For example, for Ubuntu 22.04 you need to download deb leap_4.0.4-ubuntu22.04_amd64.deb            
+For example, for Ubuntu 22.04 you need to download deb leap_4.0.4-ubuntu22.04_amd64.deb, note that Ubuntu 18.04 will not be any more supported in Leap.
+
 To install it you can use apt, but before that download it using wget command:
 ```
 wget https://github.com/AntelopeIO/leap/releases/download/v4.0.4/leap_4.0.4-ubuntu22.04_amd64.deb && apt install ./leap_4.0.4-ubuntu22.04_amd64.deb 
@@ -66,12 +68,13 @@ mkdir /opt/XPRMainNet && cd /opt/XPRMainNet && git clone https://github.com/XPRN
   - server address: `p2p-server-address = EXTERNAL_IP_ADDRESS:9876` 
 
   - if BP: your producer name: `producer-name = YOUR_BP_NAME`
-  - if BP: add producer keypair for signing blocks (this pub key should be used in regproducer action - generate separate signing key): `signature-provider = YOUR_PUB_KEY_HERE=KEY:YOUR_PRIV_KEY_HERE`
+  - if BP: add producer keypair for signing blocks (this pub key should be used in regproducer action, use this command `cleos create key --to-console`, and enter PUB key PRIV key in signature-provider): `signature-provider = YOUR_PUB_KEY_HERE=KEY:YOUR_PRIV_KEY_HERE` 
   - replace p2p-peer-address list with fresh generated on monitor site: https://monitor.protonchain.com/#p2p  
   - Check chain-state-db-size-mb value in config, it should be not bigger than you have RAM: `chain-state-db-size-mb = 16384`
+  - set CPU governor to performance, first check current CPU governor by using this command `cpufreq-info` and then set to performance `sudo cpufreq-set -r -g performance`
+  - use this command to watch current CPU clock speed `watch -n 0.4 "grep -E '^cpu MHz' /proc/cpuinfo"`
   
 - Open TCP Ports (8888, 9876) on your firewall/router
-
 
 - Start wallet, run  
 ```
@@ -175,24 +178,18 @@ p2p.alvosec.com:9876
 p2p.protonmt.com:9876
 p2p.totalproton.tech:9831
 mainnet.brotonbp.com:9876
-p2p.proton.bountyblok.io:29876
 proton.eu.eosamsterdam.net:9103
 protonp2p.blocksindia.com:9876
 p2p-protonmain.saltant.io:9876
 protonp2p.ledgerwise.io:23877
-peer1.proton.pink.gg:48011
-peer2.proton.pink.gg:48011
 proton-seed.eosiomadrid.io:9876
 proton.edenia.cloud:9879
 proton.genereos.io:9876
-p2p.proton.detroitledger.tech:1337
-p2p.proton.eosargentina.io:9877
 peer-proton.nodeone.network:9870
 p2p.proton.eoseoul.io:39876
 proton-public.neftyblocks.com:19876
 p2p-proton.eosarabia.net:9876
 ```
-
 
 ## XPR Network MAINNET API
 ```
@@ -206,9 +203,8 @@ https://proton-api.alvosec.com
 https://api.protonmt.com
 https://api.totalproton.tech
 https://mainnet.brotonbp.com
-https://api.proton.bountyblok.io
 https://proton.eu.eosamsterdam.net
-https://protonapi.blocksindia.com/
+https://protonapi.blocksindia.com
 https://aa-proton.saltant.io
 https://protonapi.ledgerwise.io
 https://proton.api.atomicassets.io
@@ -216,8 +212,6 @@ https://proton.pink.gg
 https://proton-api.eosiomadrid.io
 https://proton.edenia.cloud
 https://proton.genereos.io
-https://api.proton.detroitledger.tech
-https://proton.eosargentina.io
 https://api-proton.nodeone.network:8344
 https://proton.eoseoul.io
 https://proton-public.neftyblocks.com
@@ -233,7 +227,6 @@ https://proton-hyperion.eoscafeblock.com/v2/docs/index.html
 
 **Block Explorers**   
 https://explorer.xprnetwork.org
-
 
 --------------  
 
