@@ -230,7 +230,8 @@ https://api-proton.eosarabia.net
 
 
 **Block Explorers**   
-https://explorer.xprnetwork.org
+- [https://explorer.xprnetwork.org](https://explorer.xprnetwork.org)
+
 
 --------------  
 
