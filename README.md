@@ -75,7 +75,7 @@ mkdir /opt/XPRMainNet && cd /opt/XPRMainNet && git clone https://github.com/XPRN
   - set CPU governor to performance, first check current CPU governor by using this command `cpufreq-info` and then set to performance `sudo cpufreq-set -r -g performance`
   - use this command to watch current CPU clock speed `watch -n 0.4 "grep -E '^cpu MHz' /proc/cpuinfo"`
  
-  - Before you register on MainNet you will need to get permission for `regprod`. Prior to your registration on the MainNet, you must obtain permission for the "regprod" action. To do so, you must meet all the specified criteria to qualify for the testnet, which includes maintaining a track record of 14 consecutive days signing blocks on the testnet without missing any rounds, and achieving a performance score > 0.35 ms, among other requirements.
+  - Prior to your registration on the MainNet, you must obtain permission for the `regprod` action. To do so, you must meet all the specified criteria to qualify for the testnet, which includes maintaining a track record of 14 consecutive days signing blocks on the testnet without missing any rounds, and achieving a performance score > 0.35 ms, among other requirements.
   - To register as Block Producer, run command and visit the testnet telegram channel [above](https://t.me/XPRNetwork/935112):
   ```
   cleos system regproducer YOU_ACCOUNT PUBKEY "URL" LOCATION -p YOU_ACCOUNT
