@@ -207,7 +207,7 @@ https://proton.eosusa.io
 https://proton.cryptolions.io
 https://main.proton.kiwi
 https://proton.eoscafeblock.com
-https://proton-api.alvosec.com
+https://p2p.alvosec.com:9879
 https://api.protonmt.com
 https://api.totalproton.tech
 https://mainnet.brotonbp.com
