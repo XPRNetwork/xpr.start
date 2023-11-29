@@ -246,6 +246,7 @@ https://api-proton.eosarabia.net
 # Backups
  
 ### Snapshot:
-  * [Snapshots](http://backup.cryptolions.io/ProtonMainNet/snapshots/)
+  * [Snapshots from Cryptolions](http://backup.cryptolions.io/ProtonMainNet/snapshots/)
+  * [Snapshots from Alvosec](https://backup.alvosec.com/)
 
 --------------
