@@ -92,10 +92,16 @@ cd /opt/XPRMainNet && ./Wallet/start_wallet.sh
 **First run should be with --delete-all-blocks and --genesis-json**  
 ```
 cd /opt/XPRMainNet/xprNode && ./start.sh --delete-all-blocks --genesis-json genesis.json
-```  
+```
+
 Check logs stderr.txt if node is running ok.
 ```
 tail -f stderr.txt
+```
+
+**You may need to chmod start.sh and stop.sh**  
+```
+chmod +x start.sh && chmod+x stop.sh
 ```
 
 - Create your wallet file  
