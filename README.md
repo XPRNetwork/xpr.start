@@ -140,7 +140,7 @@ Enter your private key
    after it downloaded, extract and copy to /snapshots then run `start.sh` script with option `--snapshot` and snapshot file path
    ```
    sudo apt-get install zstd
-   unzstd latest-snapshot.zst
+   unzstd latest-snapshot.bin.zst
    cd /opt/XPRMainNet/xprNode
    ./start.sh --snapshot /opt/XPRMainNet/xprNode/snapshots/latest-snapshot.bin
    ```
