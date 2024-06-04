@@ -106,7 +106,7 @@ chmod +x start.sh && chmod+x stop.sh
 
 - Create your wallet file  
 ```
-cleos wallet create --to-file pass.tx
+cleos wallet create --file pass.tx
 ```
 Your password will be in pass.txt it will be used when unlock wallet
 
