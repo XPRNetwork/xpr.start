@@ -76,6 +76,7 @@ mkdir /opt/XPRMainNet && cd /opt/XPRMainNet && git clone https://github.com/XPRN
   - use this command to watch current CPU clock speed `watch -n 0.4 "grep -E '^cpu MHz' /proc/cpuinfo"`
  
   - Prior to your registration on the MainNet, you must obtain permission for the `regprod` action. To do so, you must meet all the specified criteria to qualify for the testnet, which includes maintaining a track record of 14 consecutive days signing blocks on the testnet without missing any rounds, and achieving a performance score > 0.35 ms, among other requirements.
+  - Before you register on MainNet you will need to request for `regprod`, you can copy this <a target="_blank" href="https://explorer.xprnetwork.org/msig/rockeronebp/ecye4r">msig</a> (login with WebAuth or use cleos).
   - To register as Block Producer, run command and visit the testnet telegram channel [above](https://t.me/XPRNetwork/935112):
   ```
   cleos system regproducer YOU_ACCOUNT PUBKEY "URL" LOCATION -p YOU_ACCOUNT
@@ -186,10 +187,8 @@ api.protonnz.com:9876
 proton.protonuk.io:9876
 proton.p2p.eosusa.io:9879
 proton.cryptolions.io:9876
-main.proton.kiwi:9786
 protonp2p.eoscafeblock.com:9130
 p2p.alvosec.com:9876
-p2p.protonmt.com:9876
 p2p.totalproton.tech:9831
 mainnet.brotonbp.com:9876
 proton.eu.eosamsterdam.net:9103
@@ -211,10 +210,8 @@ https://api.protonnz.com
 https://proton.protonuk.io
 https://proton.eosusa.io
 https://proton.cryptolions.io
-https://main.proton.kiwi
 https://proton.eoscafeblock.com
 https://p2p.alvosec.com:9879
-https://api.protonmt.com
 https://api.totalproton.tech
 https://mainnet.brotonbp.com
 https://proton.eu.eosamsterdam.net
@@ -239,8 +236,6 @@ https://api-proton.eosarabia.net
 - [https://proton.eosusa.news/v2/docs/index.html](https://proton.eosusa.news/v2/docs/index.html)
 - [https://proton-hyperion.eoscafeblock.com/v2/docs/index.html](https://proton-hyperion.eoscafeblock.com/v2/docs/index.html)
 - [https://api-protontest.saltant.io/v2/docs/static/index.html](https://api-protontest.saltant.io/v2/docs/static/index.html)
-- [http://proton-api-testnet.eosiomadrid.io/v2/docs/static/index.html](http://proton-api-testnet.eosiomadrid.io/v2/docs/static/index.html)
-
 
 
 **Block Explorers**   
