@@ -232,10 +232,9 @@ https://api-proton.eosarabia.net
 # 6. Usefull Links
 
 **Hyperion History**
-- [https://proton.cryptolions.io/v2/docs](https://proton.cryptolions.io/v2/docs)
+- [https://proton.protonuk.io/v2/docs/static/index.html](https://proton.protonuk.io/v2/docs/static/index.html)
 - [https://proton.eosusa.news/v2/docs/index.html](https://proton.eosusa.news/v2/docs/index.html)
-- [https://proton-hyperion.eoscafeblock.com/v2/docs/index.html](https://proton-hyperion.eoscafeblock.com/v2/docs/index.html)
-- [https://api-protontest.saltant.io/v2/docs/static/index.html](https://api-protontest.saltant.io/v2/docs/static/index.html)
+- [https://api-xprnetwork-main.saltant.io/v2/docs/static/index.html](https://api-xprnetwork-main.saltant.io/v2/docs/static/index.html)
 
 
 **Block Explorers**   
