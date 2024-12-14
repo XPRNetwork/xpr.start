@@ -143,6 +143,8 @@ Enter your private key
    sudo apt-get install zstd
    unzstd latest-snapshot.bin.zst
    cd /opt/XPRMainNet/xprNode
+   rm -rf blocks/*
+   rm -rf state/*
    ./start.sh --snapshot /opt/XPRMainNet/xprNode/snapshots/latest-snapshot.bin
    ```
  ---
