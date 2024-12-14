@@ -102,7 +102,7 @@ tail -f stderr.txt
 
 **You may need to chmod start.sh and stop.sh**  
 ```
-chmod +x start.sh && chmod+x stop.sh
+chmod +x start.sh && chmod +x stop.sh
 ```
 
 - Create your wallet file  
