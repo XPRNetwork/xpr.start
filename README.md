@@ -1,7 +1,7 @@
 # Welcome to the XPR Network MainNet [Validator Node Installation]
 
 Chain ID: `384da888112027f0321850a169f737c33e53b388aad48b5adace4bab97f437e0` 
-Based on tag: 4.0.4
+Based on tag: 5.0.3
 
 Please join our [XPR Network Testnet Telegram channel](https://t.me/XPRNetwork/935112)
 MainNet Explorer: https://explorer.xprnetwork.org/
@@ -15,7 +15,7 @@ To start a XPR Network node you need install Leap software. You can compile from
 ## Important Update
 
 > [!IMPORTANT] 
-> XPR Network Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (4.0.4) by 30 October 2023. This update is required to ensure the stability of the XPR Network MainNet.
+> XPR Network Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (5.0.3) by 30 September 2025. This update is required to ensure the stability of the XPR Network MainNet.
 
 BP's are required to be an operating business, have a [KYC'd](https://identity.metalx.com) XPR Network account, disclose ownership information and sign the [Code of Conduct](https://github.com/XPRNetwork/xpr.start/blob/master/XPR%20Network%20BP%20Code%20of%20Conduct%20v1.0.pdf).
 
@@ -28,26 +28,14 @@ Make sure you have Ubuntu 22.04 installed. (Check OS version by using this comma
 # 1. Installing from precompiled binaries
 
 A. Download the latest version of Antelope Leap for your OS from:
-[https://github.com/AntelopeIO/leap/releases/tag/v4.0.4
-](https://github.com/AntelopeIO/leap/releases/tag/v4.0.4)
-
-For example, for Ubuntu 22.04 you need to download deb leap_4.0.4-ubuntu22.04_amd64.deb, note that Ubuntu 18.04 will not be any more supported in Leap.
+[https://github.com/AntelopeIO/leap/releases/tag/v5.0.3
+](https://github.com/AntelopeIO/leap/releases/tag/v5.0.3)
 
 To install it you can use apt, but before that download it using wget command:
 ```
-wget https://github.com/AntelopeIO/leap/releases/download/v4.0.4/leap_4.0.4-ubuntu22.04_amd64.deb && apt install ./leap_4.0.4-ubuntu22.04_amd64.deb 
+wget https://github.com/AntelopeIO/leap/releases/download/v5.0.3/leap_5.0.3_amd64.deb && apt install ./leap_5.0.3_amd64.deb
 ```
 It will download all dependencies and install Leap  
-
----------------------------------------------------------  
-# 2. Update software to new version  
-
-If upgrading from old 2.X or 3.X versions please see this important guide 
-https://eosnetwork.com/blog/leap-3-1-upgrade-guide/
-
-```
-apt install ./leap_4.0.4-ubuntu22.04_amd64.deb 
-```
 
 ------------------------------------------------------------------  
 
