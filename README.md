@@ -221,7 +221,7 @@ peer-proton.nodeone.network:9870
 p2p.proton.eoseoul.io:39876
 proton-public.neftyblocks.com:19876
 p2p-proton.eosarabia.net:9876
-p2p.luminaryvisn.com
+p2p.luminaryvisn.com:9876
 ```
 
 ## XPR Network MAINNET API
