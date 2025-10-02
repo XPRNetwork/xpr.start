@@ -52,6 +52,7 @@ wget https://github.com/ericpassmore.gpg
 gpg --import ericpassmore.gpg
 wget https://github.com/spoonincode.gpg
 gpg --import spoonincode.gpg
+wget https://github.com/AntelopeIO/leap/releases/download/v5.0.3/leap_5.0.3_amd64.deb
 wget https://github.com/AntelopeIO/leap/releases/download/v5.0.3/leap_5.0.3_amd64.deb.asc
 gpg --verify leap_5.0.3_amd64.deb.asc leap_5.0.3_amd64.deb
 ```
