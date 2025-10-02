@@ -31,11 +31,39 @@ A. Download the latest version of Antelope Leap for your OS from:
 [https://github.com/AntelopeIO/leap/releases/tag/v5.0.3
 ](https://github.com/AntelopeIO/leap/releases/tag/v5.0.3)
 
+### Quick Installation (no verification)
+
 To install it you can use apt, but before that download it using wget command:
 ```
 wget https://github.com/AntelopeIO/leap/releases/download/v5.0.3/leap_5.0.3_amd64.deb && apt install ./leap_5.0.3_amd64.deb
 ```
 It will download all dependencies and install Leap  
+
+### Verify binary's integrity and then install (recommended)
+
+
+<p> Import the maintainer keys (run as root) </p>
+
+```
+cd /tmp
+wget https://github.com/arhag.gpg
+gpg --import arhag.gpg
+wget https://github.com/ericpassmore.gpg
+gpg --import ericpassmore.gpg
+wget https://github.com/spoonincode.gpg
+gpg --import spoonincode.gpg
+wget https://github.com/AntelopeIO/leap/releases/download/v5.0.3/leap_5.0.3_amd64.deb.asc
+gpg --verify leap_5.0.3_amd64.deb.asc leap_5.0.3_amd64.deb
+```
+
+<p>
+You should see several GOOD SIGNATURE messages, indicating the binary's integrity has been confirmed.
+</p>
+
+
+```
+apt install ./leap_5.0.3_amd64.deb
+```
 
 ------------------------------------------------------------------  
 
@@ -192,6 +220,7 @@ peer-proton.nodeone.network:9870
 p2p.proton.eoseoul.io:39876
 proton-public.neftyblocks.com:19876
 p2p-proton.eosarabia.net:9876
+p2p.luminaryvisn.com
 ```
 
 ## XPR Network MAINNET API
@@ -217,6 +246,7 @@ https://api-proton.nodeone.network:8344
 https://proton.eoseoul.io
 https://proton-public.neftyblocks.com
 https://api-proton.eosarabia.net
+https://api.luminaryvisn.com
 ```
 
 # 6. Usefull Links
