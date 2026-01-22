@@ -199,7 +199,7 @@ List staked/delegated
 ```
 cleos system listbw <account>
 ```
-## XPR Network MAINNET P2P
+## XPR Network MAINNET P2P (Verified January 2026)
 
 ```
 api.protonnz.com:9876
@@ -215,10 +215,7 @@ protonp2p.blocksindia.com:9876
 p2p-protonmain.saltant.io:9876
 protonp2p.ledgerwise.io:23877
 proton-seed.eosiomadrid.io:9876
-proton.edenia.cloud:9879
 proton.genereos.io:9876
-peer-proton.nodeone.network:9870
-p2p.proton.eoseoul.io:39876
 proton-public.neftyblocks.com:19876
 p2p-proton.eosarabia.net:9876
 p2p.luminaryvisn.com:9876
