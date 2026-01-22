@@ -1,0 +1,26 @@
+# XPR Network Mainnet P2P Peers
+# Last verified: 2026-01-23
+# Copy these lines to your config.ini
+
+# Active Mainnet P2P Peers (verified active)
+p2p-peer-address = api.protonnz.com:9876
+p2p-peer-address = proton.protonuk.io:9876
+p2p-peer-address = proton.p2p.eosusa.io:9879
+p2p-peer-address = proton.cryptolions.io:9876
+p2p-peer-address = protonp2p.eoscafeblock.com:9130
+p2p-peer-address = p2p.alvosec.com:9876
+p2p-peer-address = p2p.totalproton.tech:9831
+p2p-peer-address = mainnet.brotonbp.com:9876
+p2p-peer-address = proton.eu.eosamsterdam.net:9103
+p2p-peer-address = protonp2p.blocksindia.com:9876
+p2p-peer-address = p2p-protonmain.saltant.io:9876
+p2p-peer-address = protonp2p.ledgerwise.io:23877
+p2p-peer-address = proton-seed.eosiomadrid.io:9876
+p2p-peer-address = proton.genereos.io:9876
+p2p-peer-address = proton-public.neftyblocks.com:19876
+p2p-peer-address = p2p-proton.eosarabia.net:9876
+
+# Additional peers (may need verification)
+# p2p-peer-address = proton.edenia.cloud:9879
+# p2p-peer-address = peer-proton.nodeone.network:9870
+# p2p-peer-address = p2p.proton.eoseoul.io:39876
