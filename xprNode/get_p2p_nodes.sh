@@ -10,7 +10,7 @@ echo "Checking p2p nodes, this may take a few minutes...."
 # Get the directory where the script is located
 script_dir=$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")
 
-# ---------- Fallback static list (from xpr.start README) ----------
+# ---------- Fallback static list (verified January 2026) ----------
 fallback_addresses=(
   "api.protonnz.com:9876"
   "proton.protonuk.io:9876"
@@ -25,12 +25,10 @@ fallback_addresses=(
   "p2p-protonmain.saltant.io:9876"
   "protonp2p.ledgerwise.io:23877"
   "proton-seed.eosiomadrid.io:9876"
-  "proton.edenia.cloud:9879"
   "proton.genereos.io:9876"
-  "peer-proton.nodeone.network:9870"
-  "p2p.proton.eoseoul.io:39876"
   "proton-public.neftyblocks.com:19876"
   "p2p-proton.eosarabia.net:9876"
+  "p2p.luminaryvisn.com:9876"
 )
 
 # ---------- Try to fetch the p2p list from API ----------
