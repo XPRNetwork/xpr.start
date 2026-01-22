@@ -233,7 +233,7 @@ https://api.totalproton.tech
 https://mainnet.brotonbp.com
 https://proton.eu.eosamsterdam.net
 https://protonapi.blocksindia.com
-https://aa-proton.saltant.io
+https://api-xprnetwork-main.saltant.io
 https://protonapi.ledgerwise.io
 https://proton.api.atomicassets.io
 https://proton.pink.gg
@@ -266,5 +266,6 @@ https://api.luminaryvisn.com
 ### Snapshot:
   * [Snapshots from Cryptolions](http://backup.cryptolions.io/ProtonMainNet/snapshots/)
   * [Snapshots from Alvosec](https://backup.alvosec.com/)
+  * [Snapshots from Saltant](https://snapshots.saltant.io/) (includes full history)
 
 --------------
