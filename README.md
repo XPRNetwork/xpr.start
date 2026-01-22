@@ -149,7 +149,16 @@ Enter your private key
 ==============================================================================================  
 
 # 4. Restore/Start from Snapshots
-   Download latest snapshot from http://backup.cryptolions.io/ProtonMainNet/snapshots/ to snapshots folder in your **NODE** directory
+      Download the latest snapshot from one of these sites into to snapshots folder in your **NODE** directory:
+   - https://snapshots.bloxprod.io/testnet/
+     ```
+     cd /opt/XPRTestNet/xprNode/snapshots/ && wget https://snapshots.bloxprod.io/testnet/latest-snapshot.bin
+     ```
+     or
+   - http://backup.cryptolions.io/ProtonTestNet/snapshots/
+     ```
+       cd /opt/XPRTestNet/xprNode/snapshots/ && wget http://backup.cryptolions.io/ProtonTestNet/snapshots/latest-snapshot.bin.zst
+     ```
    ```
    mkdir /opt/XPRMainNet/xprNode/snapshots
    cd /opt/XPRMainNet/xprNode/snapshots/
@@ -264,7 +273,9 @@ https://api.luminaryvisn.com
 # Backups
  
 ### Snapshot:
-  * [Snapshots from Cryptolions](http://backup.cryptolions.io/ProtonMainNet/snapshots/)
-  * [Snapshots from Alvosec](https://backup.alvosec.com/)
+  * [Snapshots / BP Cryptolions](http://backup.cryptolions.io/ProtonMainNet/snapshots/)
+  * [Snapshots / BP Alvosec](https://backup.alvosec.com/)
+  * [Full State History Snapshots / BP Saltant](https://snapshots.saltant.io/mainnet/)
+  * [Snapshots & Full State History Snapshots / BP Bloxprod](https://snapshots.bloxprod.io/mainnet/)
 
 --------------
