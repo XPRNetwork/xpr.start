@@ -268,5 +268,6 @@ https://api.luminaryvisn.com
   * [Snapshots from Alvosec](https://backup.alvosec.com/)
   * [Snapshots from Saltant](https://snapshots.saltant.io/) (includes full history)
   * [Snapshots from Turtle BP](https://snapshot.turtlebp.online) (daily updated)
+  * [Snapshots from Bloxprod BP](https://snapshots.bloxprod.io) (daily updated / includes full history)
 
 --------------
