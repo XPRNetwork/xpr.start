@@ -264,7 +264,7 @@ https://api.luminaryvisn.com
 # Backups
  
 ### Snapshot:
-  * [Snapshots from Cryptolions](http://backup.cryptolions.io/ProtonMainNet/snapshots/)
+  * [Snapshots from Bloxprod](https://snapshots.bloxprod.io/) (daily updated / includes full history)
   * [Snapshots from Alvosec](https://backup.alvosec.com/)
   * [Snapshots from Saltant](https://snapshots.saltant.io/) (includes full history)
   * [Snapshots from Turtle BP](https://snapshot.turtlebp.online) (daily updated)
