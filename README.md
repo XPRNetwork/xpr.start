@@ -149,16 +149,14 @@ Enter your private key
 ==============================================================================================  
 
 # 4. Restore/Start from Snapshots
-   Download latest snapshot from http://backup.cryptolions.io/ProtonMainNet/snapshots/ to snapshots folder in your **NODE** directory
+   Download the latest snapshot from https://snapshots.bloxprod.io/mainnet/ to the snapshots folder in your **NODE** directory.
    ```
    mkdir /opt/XPRMainNet/xprNode/snapshots
    cd /opt/XPRMainNet/xprNode/snapshots/
-   wget http://backup.cryptolions.io/ProtonMainNet/snapshots/latest-snapshot.bin.zst
+   wget https://snapshots.bloxprod.io/mainnet/latest-snapshot.bin
    ```
-   after it downloaded, extract and copy to /snapshots then run `start.sh` script with option `--snapshot` and snapshot file path
+   After the download completes, run the `start.sh` script with the `--snapshot` option and the snapshot file path.
    ```
-   sudo apt-get install zstd
-   unzstd latest-snapshot.bin.zst
    cd /opt/XPRMainNet/xprNode
    rm -rf blocks/*
    rm -rf state/*
