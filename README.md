@@ -17,7 +17,15 @@ To start a XPR Network node you need install Leap software. You can compile from
 > [!IMPORTANT] 
 > XPR Network Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (5.0.3) by 30 September 2025. This update is required to ensure the stability of the XPR Network MainNet.
 
-BP's are required to be an operating business, have a [KYC'd](https://identity.metalx.com) XPR Network account, disclose ownership information and sign the [Code of Conduct](https://github.com/XPRNetwork/xpr.start/blob/master/XPR%20Network%20BP%20Code%20of%20Conduct%20v1.0.pdf).
+## Block Producer eligibility — complete this before Testnet
+
+**Do not attempt to join Testnet as a Block Producer, request `regprod` permission, register as a producer, or request BP onboarding support until you have completed the following mandatory eligibility steps:**
+
+1. Read [How to Become a Block Producer on the XPR Network](https://xprnetwork.org/blog/how-to-become-a-block-producer-on-the-xpr-network) in full.
+2. Pass the XPR Network Consortium's manual Know Your Business (KYB) review and required [KYC verification](https://identity.metalx.com). This is required **before any BP Testnet access is granted**.
+3. After KYB/KYC approval, pass the XPR Network Operator Competency Assessment.
+
+Every BP must operate through a legally registered, tax-compliant company, disclose ownership information, and sign the [Code of Conduct](https://github.com/XPRNetwork/xpr.start/blob/master/XPR%20Network%20BP%20Code%20of%20Conduct%20v1.0.pdf). Only applicants that have passed these pre-Testnet requirements may proceed with BP Testnet onboarding. Completion of the Testnet period does not guarantee Mainnet approval.
 
 Please contact us on Telegram if you have any questions: [https://t.me/XPRNetwork/935112](https://t.me/XPRNetwork/935112)
 
