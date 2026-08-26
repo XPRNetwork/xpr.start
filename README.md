@@ -25,7 +25,7 @@ To start a XPR Network node you need install Leap software. You can compile from
 2. Pass the XPR Network Consortium's manual Know Your Business (KYB) review and required [KYC verification](https://identity.metalx.com). This is required **before any BP Testnet access is granted**.
 3. After KYB/KYC approval, pass the XPR Network Operator Competency Assessment.
 
-Every BP must operate through a legally registered, tax-compliant company, disclose ownership information, and sign the [Code of Conduct](https://github.com/XPRNetwork/xpr.start/blob/master/XPR%20Network%20BP%20Code%20of%20Conduct%20v1.0.pdf). Only applicants that have passed these pre-Testnet requirements may proceed with BP Testnet onboarding. Completion of the Testnet period does not guarantee Mainnet approval.
+Every BP must operate through a legally registered business form recognised in its home jurisdiction. This may include a company, partnership, limited-liability entity, or registered sole proprietor / Private Entrepreneur. The Consortium verifies the business registration, applicable tax/business registration or equivalent official identifier, the person authorised to bind the business, ultimate beneficial ownership, and operational control. BPs must disclose ownership information and sign the [Code of Conduct](https://github.com/XPRNetwork/xpr.start/blob/master/XPR%20Network%20BP%20Code%20of%20Conduct%20v1.0.pdf). Only applicants that have passed these pre-Testnet requirements may proceed with BP Testnet onboarding. Completion of the Testnet period does not guarantee Mainnet approval.
 
 Please contact us on Telegram if you have any questions: [https://t.me/XPRNetwork/935112](https://t.me/XPRNetwork/935112)
 
