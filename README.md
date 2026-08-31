@@ -17,6 +17,25 @@ To start a XPR Network node you need install Leap software. You can compile from
 > [!IMPORTANT] 
 > XPR Network Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (5.0.3) by 30 September 2025. This update is required to ensure the stability of the XPR Network MainNet.
 
+## Temporary Pause on New Block Producer Submissions
+
+XPR Network is temporarily pausing new Block Producer submissions while the network completes its transition to PulseVM.
+
+This is a precautionary measure to protect network stability during a critical protocol upgrade. The transition will be handled by established Block Producers with demonstrated production, upgrade, monitoring, recovery, and incident-response experience.
+
+During the pause:
+
+- No new BP Testnet or Mainnet onboarding applications will be accepted.
+- No new `regprod` permissions will be issued for BP candidates.
+- Existing active Block Producers and non-BP Testnet node operators are unaffected.
+- Current applicants will be contacted directly regarding their status.
+
+The Consortium will use this period to complete the PulseVM transition and finalise strengthened BP admission standards covering manual KYB/KYC, sanctions screening, technical competency, operational accountability, and ecosystem contribution.
+
+New BP submissions will reopen once PulseVM is deployed, stable, and the XPR Network Consortium has formally approved the reopening of onboarding.
+
+Thank you for your understanding and for supporting a secure, reliable XPR Network.
+
 ## Block Producer eligibility — complete this before Testnet
 
 **Do not attempt to join Testnet as a Block Producer, request `regprod` permission, register as a producer, or request BP onboarding support until you have completed the following mandatory eligibility steps:**
