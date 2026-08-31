@@ -12,11 +12,6 @@ This repo is for binary installation!
 
 To start a XPR Network node you need install Leap software. You can compile from sources or install from precompiled binaries:  
 
-## Important Update
-
-> [!IMPORTANT] 
-> XPR Network Consortium is requesting all Block Producers to update their nodes to the latest version of Leap (5.0.3) by 30 September 2025. This update is required to ensure the stability of the XPR Network MainNet.
-
 ## Temporary Pause on New Block Producer Submissions
 
 XPR Network is temporarily pausing new Block Producer submissions while the network completes its transition to PulseVM.
